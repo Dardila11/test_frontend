@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import Checkbox from '../../components/Checkbox'
+import Checkbox from '../../components/Checkbox/Checkbox'
 import HeroesList from '../../components/HeroesList/HeroesList'
 import SearchBar from '../../components/SearchBar/SearchBar'
 import { useHeroes } from '../../hooks/useHeroes'
@@ -20,7 +20,7 @@ const Home = () => {
 
 	return (
 		<div>
-			<h1>list of superheroes!</h1>
+			<h1>List of superheroes!</h1>
 			<div className="header">
 				<SearchBar
 					superheroName={query}
